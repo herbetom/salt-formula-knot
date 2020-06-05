@@ -38,8 +38,8 @@ knot:
       storage: "/var/lib/knot/zones"
       file: "%s.zone"
       journal-db: "/var/lib/knot/journal"
-      kasp-db: "/var/lib/knot/kasp"
-      timer-db: "/var/lib/knot/timer"
+      kasp-db: "/var/lib/knot/keys"
+      timer-db: "/var/lib/knot/timers"
 
   zone:
     example.org: {}
